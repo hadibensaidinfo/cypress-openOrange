@@ -1,0 +1,7 @@
+{
+    "userName":"[name='username']",
+    "password":"[name='password']",
+    "btnLogin":".oxd-button--main",
+    "topBarHeader":".oxd-topbar-header",
+    "alertContent":".oxd-alert-content"
+}
