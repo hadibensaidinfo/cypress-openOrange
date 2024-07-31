@@ -35,4 +35,5 @@ Run `npm run e2e:run` To launch the test cases and generate a report.
 #### Example
 
 Here's an example of running all the GUI tests in interactive mode.
+![Logo de mon projet](assets/cypress.PNG)
 
