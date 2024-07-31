@@ -22,7 +22,7 @@ Install project dependencies with: npm i
 
 Run `npm run cy:open` To launch the test cases by opening the browser locally.
 
-Run `npm run cy:run` To launch the test cases and generate a report.
+Run `npm run e2e:run` To launch the test cases and generate a report.
 
 ### Interactive mode
 
