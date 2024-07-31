@@ -3,9 +3,6 @@ describe('Test Authentication', () => {
   beforeEach('OpenBrowser', () => {
     cy.OpenBrowser()
   })
-  afterEach('Take Screenshoot', () => {
-    cy.screenshot()
-  })
   it('L\'utilisateur peut faire le login avec succes', () => {
     cy.fixture('../fixtures/auth.json').then((auth) => {
       login.FillInputFields(auth.userName, auth.password)
@@ -26,5 +23,8 @@ describe('Test Authentication', () => {
     })
     login.ClickSubmitButton()
     login.VerifyLogin(false)
+  })
+  afterEach('Take Screenshoot', () => {
+    cy.screenshot()
   })
 })

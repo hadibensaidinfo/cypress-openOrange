@@ -15,10 +15,11 @@ module.exports = defineConfig({
     saveJson: true
   },
   e2e: {
+    viewportHeight: 1024,
+    viewportHeight: 768,
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     baseUrl: 'https://opensource-demo.orangehrmlive.com/'
-
   },
 })

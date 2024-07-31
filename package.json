@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "npx cypress open",
-    "cy:run": "npx cypress run"
+    "e2e:run": "npx cypress run --browser chrome --env viewportHeight=1024 viewportHeight=768"
   },
   "author": "",
   "license": "ISC",
